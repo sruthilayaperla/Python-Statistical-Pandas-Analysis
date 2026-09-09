@@ -1,0 +1,9 @@
+#Creating a dataframe with headings
+import pandas as pd
+data=[['Alex',10],['Bob',12],['clarke',13]]
+print(data)
+print(type(data))
+print("---------------------")
+df=pd.DataFrame(data,columns=['Name','Age'])
+print(df)
+print(type(df))

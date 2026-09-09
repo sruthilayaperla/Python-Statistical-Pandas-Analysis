@@ -1,0 +1,9 @@
+#converting list to dataframes
+import pandas as pd
+data=[10,20,30,40,50]
+print(data)
+print(type(data))
+print("------------------------")
+df=pd.DataFrame(data)
+print(df)
+print(type(df))
