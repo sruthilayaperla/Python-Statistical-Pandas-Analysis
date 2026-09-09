@@ -1,0 +1,6 @@
+#Converting Dictionary to dataframe
+import pandas as pd
+x={10:"pen",20:"pencil",30:"eraser"}
+df=pd.DataFrame(list(x.items()),coulmns=["ID","Item"])
+print(df)
+

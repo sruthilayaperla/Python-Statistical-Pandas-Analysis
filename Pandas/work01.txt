@@ -1,0 +1,5 @@
+#converting tuple to dataframe with heading
+import pandas as pd
+fruits=('apple','mango','grapes','orange','banana')
+x=pd.DataFrame(fruits,columns=['fruits'])
+print(x)
